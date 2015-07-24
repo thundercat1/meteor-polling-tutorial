@@ -1,0 +1,10 @@
+<template name="poll">
+	<div class="poll well well-lg">
+		<h3>{{question}}</h3>
+		{{#each indexedArray answers}}
+			<p>
+			{{text}} {{votes}}
+			</p>
+		{{/each}}
+	</div>
+</template>
